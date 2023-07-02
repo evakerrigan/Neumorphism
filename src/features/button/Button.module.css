@@ -17,5 +17,14 @@
   /* border-image: linear-gradient(132.16deg, rgba(254, 254, 255, 0.27), rgba(198, 206, 218, 0.97)); */
 
   box-shadow: 10px 10px 20px 0px rgba(166, 180, 200, 0.7),
+    -12px -12px 20px 0px rgba(255, 255, 255, 0.8),
     -12px -12px 20px 0px rgba(255, 255, 255, 0.8);
+}
+.button:hover {
+  transform: scale(1.05);
+  transition: all 1s;
+}
+.button:active {
+  transform: scale(1);
+  transition: all 1s;
 }
