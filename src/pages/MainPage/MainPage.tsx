@@ -1,3 +1,9 @@
+import { Button } from '@/features/button';
+
 export const MainPage = () => {
-  return <div>MainPage</div>;
+  return (
+    <div>
+      <Button />
+    </div>
+  );
 };

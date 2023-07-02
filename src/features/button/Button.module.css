@@ -1,0 +1,21 @@
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 28px;
+  color: #686868;
+  background-color: #e9edf0;
+  padding: 18px 120px;
+  outline: none;
+
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-image: linear-gradient(132.16deg, #fefeff 26.7%, #c6ceda 96.52%);
+  /* border-image: linear-gradient(132.16deg, rgba(254, 254, 255, 0.27), rgba(198, 206, 218, 0.97)); */
+
+  box-shadow: 10px 10px 20px 0px rgba(166, 180, 200, 0.7),
+    -12px -12px 20px 0px rgba(255, 255, 255, 0.8);
+}
